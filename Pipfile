@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+watchdog = "*"
+faker = "*"
+pylint = "*"
+flake8 = "*"
+pillow = "*"
+
+[packages]
+flask = "*"
+python-dotenv = "*"
+flask-wtf = "*"
+wtforms = {extras = ["email"], version = "*"}
+flask-ckeditor = "*"
+flask-sqlalchemy = "*"
+flask-mail = "*"
+flask-moment = "*"
+flask-debugtoolbar = "*"
+flask-login = "*"
+apscheduler = "*"
+flask-apscheduler = "*"
+
+[requires]
+python_version = "3.7"
